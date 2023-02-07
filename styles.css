@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+body{
+    background-color: rgb(253, 253, 253);
+    
+}
+.section{
+    max-width:1440px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width:100%;
+    margin:0 auto;
+    background-color: #232536;
+    display:flex;
+    padding:10px 25px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo{
+    height:28px;
+}
+.nav{
+    display:flex;
+    gap:24px;
+    color:white;
+    font-family: 'Sen', sans-serif;
+    align-items: center;
+
+}
+
+.subscribe{
+    width:179px;
+    height:59px;
+    background-color: white;
+    color:#232536;
+    text-align: center;
+    line-height: 59px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    
+}
+.hero-pos{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    justify-content: center;
+    width:100%;
+    position: relative;
+    
+    
+}
+.hero{
+    width:100%;
+    background-color: red;
+}
+.hero-pos-text{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Sen', sans-serif;
+    position: absolute;
+    gap:20px;
+    padding-left:40px;
+    margin-bottom:50px;
+}
+
+.hero-text{
+font-family: 'Sen', sans-serif;
+color:white;
+
+}
+.startup{
+    font-size: 16px;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+}
+.hero-text:nth-child(2){
+    font-weight: 700;
+    font-size: 56px;
+    max-width:900px;
+}
+.james{
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #FFD050;
+}
+.hero-text:nth-child(4){
+    max-width:900px;
+}
+.readmore{
+width: 204px;
+height:56px;
+background-color: #FFD050;
+text-align: center;
+line-height: 56px;
+
+}
+
+@media(max-width:900px){
+    .section{
+        width:100%;
+    }
+    .header{
+        width:100%;
+        justify-content: center;
+       
+    }
+    
+    .nav{
+       display:none;
+    
+    }
+    .hero-pos{
+        display: flex;
+        flex-direction: column;
+        margin:0 auto;
+        justify-content: center;
+        width:100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .hero-pos-text{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom:0;
+    }
+    
+    .hero-text:nth-child(2){
+        font-size: 30px;
+        max-width:400px;
+    }
+
+    .hero-text:nth-child(4){
+        max-width:400px;
+    }
+
+}
+.box{
+    max-width:1280px;
+    width:100%;
+    display: flex;
+    margin:10px auto;
+}
+.box-inside{
+    max-width:730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.box-img{
+max-width:670px;
+}
+.box-text{
+font-family: 'Sen';
+font-weight: 700;
+font-size: 36px;
+color: #232536;
+}
+.box-text:nth-child(3){
+font-family: 'Inter';
+font-weight: 500;
+font-size: 14px;
+color: #4C4C4C;
+}
+.jhon{
+font-family: 'Inter';
+font-weight: 500;
+font-size: 14px;
+color: #592EA9;
+}
+.box-text:nth-child(4){
+font-weight: 700;
+font-size: 28px;
+color: #232536;
+}
+.box-text:nth-child(5){
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    }
+
+    .box-text1{
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 14px;
+        color: #4C4C4C;
+        }
+
+.box-inside1{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        }
+
+.box-level2-text{
+font-weight: 700;
+font-size: 24px;
+max-width:370px;
+color: #232536;
+margin-top:10px;
+padding:20px;
+}
+.box-level2:nth-child(3){
+    background-color: #FBF6EA;
+    padding:20px;
+    box-sizing: border-box;
+}
+@media(max-width:900px){
+    .box{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+  
+    .box-img{
+        width:100%;
+    }
+    .box-inside1{
+            width:80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            
+
+            }
+    
+    .box-level2-text{
+    width:100%;
+    }
+
+}
